@@ -60,7 +60,7 @@ function three () {
 function four () {
     var four = document.getElementById('four')
     
-    four.addEventListener('onclick', makeBlack)
+    four.addEventListener('mouseenter', makeBlack)
     
     four.addEventListener('mouseleave', makeWhite)
     
