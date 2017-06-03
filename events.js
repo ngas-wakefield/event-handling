@@ -56,15 +56,11 @@ function three () {
 
 
 // CREATE FUNCTION four HERE
-
 function four () {
-    var four = document.getElementById('four')
-    
-    four.addEventListener('mouseenter', makeBlack)
-    
-    four.addEventListener('mouseleave', makeWhite)
-    
-    
+ var four = document.getElementById('four')
+
+  four.addEventListener('click', makeBlack)
+  four.addEventListener('mouseleave', makeWhite)
 }
 
 
